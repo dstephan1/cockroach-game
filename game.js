@@ -384,6 +384,7 @@ dustActor.prototype.draw = function (B, C, P) {
 /////// EVENTS ------------------------------------------------------------------
 
 function doMouseDown(e) {
+	e.preventDefault();
     if(animate)
         handDown(anim);
     if (gameState == 1) {
