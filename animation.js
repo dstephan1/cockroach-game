@@ -163,11 +163,8 @@ function Animation()
 	// Sounds
 		self.hitSound = new Audio("./Assets/paperhit.wav"); // local per hit
 
-		//self.intromusic = new Audio("./Assets/typewriter.mp3");
-		//self.intromusic.loop = true;
-		//self.intromusic.addEventListener("loadeddata", function () { self.intromusic.play(); });
-
-		self.music = new Audio("./Assets/kairyu.mp3");
+		// http://freemusicarchive.org/music/Lobo_Loco/In_a_Movie/Pianoman_Sofa_Sofa_ID_1157
+		self.music = new Audio("./Assets/music.mp3");
 		self.music.loop = true;
 		//self.music.pause();
 		//self.music.currentTime = 0;
